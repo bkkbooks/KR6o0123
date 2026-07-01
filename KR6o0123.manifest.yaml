@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6o0123/v1
+canonical_location: https://kanripo.org/bkk/KR6o0123/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 起信論註
+  identifiers:
+    alt_id:
+    - T85n2815
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2815.xml
+    old_id: T85n2815
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6o0123_000.yaml, hash: 'sha256:509cc1da0a8a873453b4475edcaaa89dec4616ba867d44d53a6ad0fcef624dc9'}
+  - {seq: 1, filename: KR6o0123_001.yaml, hash: 'sha256:3c1eb228287ceff503708fecb5cbf445cd066da71f5e808609bac2215c8dc1bc'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6o0123_001.markers.yaml, hash: 'sha256:cef080af2ad91b5fc8b589c569f3b1dd3ddac71cc5bc21d0fc0a8bb7ad99e44d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6o0123_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7348
+  label: 起信論註
+  type: juan
+  level: 1
+hash: sha256:8fae2c7172f8562f7c4856fa1526c09b263bb2c1e6ad6d2a84d1db30cc6723a7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
